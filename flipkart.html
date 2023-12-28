@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title></title>
+    <body>
+        <form>
+            <fieldset>
+                <legend> using html validation attributes</legend>
+            <!---name----->
+            <input type="text" required placeholder="name"/>
+            <!--------phone number------->
+            <input type="number" required max="10" placeholder="10 digit number"/>
+            <br><br>
+            <!------pincode------->
+            <input type="number" placeholder="pincode"/>
+            <!------locality----->
+            <input type="text" placeholder="locality"/>
+            <br><br>
+            <!-----Address------>
+            <textarea placeholder=" Address(Area and street)"></textarea>
+            <br><br>
+            <!----city/district----->
+            <input type="text" placeholder="City/District/Town"/>
+            <!-----states----->
+            <select> 
+                <option>select states</option>
+                <option>Karnataka</option>
+                <option>kerala</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Rajastan</option>
+            </select>
+            <br><br>
+            <!-----landmark----->
+            <input type="text" placeholder="Landmark(optional)"/>
+            <!----alternate phone----->
+            <input type="text" readonly placeholder="Alternate phone(optional)"/>
+            <br><br>
+            <!----address type----->
+            <input type disabled placeholder="Address Type"/>
+            <br>
+             <input type="radio" name="address type"/> Home
+            <input type="radio" name="address type"/> Work
+            <br><br>
+            <!-----save/cancel----->
+            <button>SAVE</button>
+            <button>CANCEL</button>
+
+</fieldset>
+               </form>
+    </body>
+</html>
