@@ -1,2 +1,8 @@
 
-h3{background-color: blueviolet;}
+a[target="_blank"]{
+    background-color: blueviolet;
+}
+*{
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
