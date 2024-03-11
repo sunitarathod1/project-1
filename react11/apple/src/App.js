@@ -1,16 +1,24 @@
+import React from "react"
+import Product from "./component/Product"
 
-// import Vasu from "./component/Vasu"
-import Movies from "./component/navbar"
 
 function App(){
 
 
-    return <div>
+    return (
+        <div>
+            {/* <CompA/> */}
         {/* <h1>App Component</h1> */}
         {/* <hr /> */}
-         <Navbar/> 
+         {/* <user/>  */}
+         {/* <emp/> */}
        
         {/* <Vasu/> */}
+        {/* <CompA/> */}
+        {/* <State />         */}
+        <Product/>
        </div>
+
+    ) 
 }
 export default App
