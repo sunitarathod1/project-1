@@ -1,5 +1,6 @@
 import React from "react"
 import Product from "./component/Product"
+import V from "./V"
 
 
 function App(){
@@ -16,7 +17,8 @@ function App(){
         {/* <Vasu/> */}
         {/* <CompA/> */}
         {/* <State />         */}
-        <Product/>
+        {/* <Product/> */}
+        <V/>
        </div>
 
     ) 
