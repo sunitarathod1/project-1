@@ -1,26 +1,45 @@
-import React from "react"
-import Product from "./component/Product"
-import V from "./V"
+import React, { Component } from 'react'
+// import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+import Empoyees from './ListRendering/Empoyees'
+import Employee from './ListRendering/Empoyees'
+// import Navbar from './Navbar/Navbar'
+// import About from './Navbar/component/About'
+// import Contact from './Navbar/component/Contact'
+// import Home from './Navbar/component/Home'
+// import Services from './Navbar/component/Services'
 
 
-function App(){
+//  class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <Router>
+//         <Navbar/>
+//         <Switch>
+//             <Route exact Path="/home" component={Home}/>
+//             <Route exact Path="/about" component={About}/>
+//             <Route exact Path="/services" component={Services}/>
+//             <Route exact Path="/contact" component={Contact}/>
+//         </Switch>
+//         </Router>
+
+//       </div>
+//     )
+//   }
+
+// }
+//  export default App
 
 
+
+export class App extends Component {
+  render() {
     return (
-        <div>
-            {/* <CompA/> */}
-        {/* <h1>App Component</h1> */}
-        {/* <hr /> */}
-         {/* <user/>  */}
-         {/* <emp/> */}
-       
-        {/* <Vasu/> */}
-        {/* <CompA/> */}
-        {/* <State />         */}
-        {/* <Product/> */}
-        <V/>
-       </div>
-
-    ) 
+      <div>
+        <Empoyees/>
+      </div>
+    )
+  }
 }
+
 export default App
