@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import Empoyees from './ListRendering/Empoyees'
-import Employee from './ListRendering/Empoyees'
+// import Employee from './ListRendering/Empoyees'
 // import Navbar from './Navbar/Navbar'
 // import About from './Navbar/component/About'
 // import Contact from './Navbar/component/Contact'

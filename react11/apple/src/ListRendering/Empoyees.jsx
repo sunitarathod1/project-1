@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import Employee from "./ListRendering/Data"
-
+import employees from "./data"
 export class Empoyees extends Component {
     constructor(props){
         super(props)
         this.state = {
-            Empoyee:Employee
+        employees:employees
         }
     }
 
@@ -18,10 +17,12 @@ export class Empoyees extends Component {
       <div>
         <table>
             <thead>
+                <tr>
                 <th>id</th>
                 <th>name</th>
                 <th>email</th>
                 <th>gender</th>
+                </tr>
             </thead>
             
             <tbody>
