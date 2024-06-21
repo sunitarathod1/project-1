@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "react-router-dom": "^5.3.4"
+    "@redux-devtools/extension": "^3.3.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^5.3.4",
+    "redux": "^5.0.1"
   }
 }

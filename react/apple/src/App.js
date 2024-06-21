@@ -1,16 +1,15 @@
+import React, { Component } from 'react'
+import Eg1 from './react_practice/Eg1'
 
-// import Vasu from "./component/Vasu"
-import Movies from './component/Movies'
+export class App extends Component {
+  render() {
+    return (
+      <div App>
+        <Eg1/>
 
-function App(){
-
-
-    return <div>
-        <h1>App Component</h1>
-        <hr />
-        <Movies/>
-       
-        {/* <Vasu/> */}
-    </div>
+      </div>
+    )
+  }
 }
+
 export default App
