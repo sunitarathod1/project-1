@@ -7,7 +7,7 @@ function Comp1() {
     <><h1>Comp1</h1>
         
     <Comp2/>
-    <h2>std=({Student.name})</h2>
+    <h2>std=({Student[0]})</h2>
     </>
   )
 }
